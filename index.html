@@ -247,9 +247,9 @@
             particlesContainer.appendChild(particle);
         }
 
-        // Countdown Timer - 25 days from now
-        const targetDate = new Date();
-        targetDate.setDate(targetDate.getDate() + 25);
+                // FIXED Countdown Timer - March 22, 2026
+        const targetDate = new Date('2026-03-22T00:00:00').getTime();
+            
         
         function updateCountdown() {
             const now = new Date().getTime();
